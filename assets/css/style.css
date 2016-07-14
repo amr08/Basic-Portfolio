@@ -1,0 +1,161 @@
+
+
+
+
+body {
+	background: url("https://raw.githubusercontent.com/amr08/Basic-Portfolio/master/assets/css/retina_wood/retina_wood.png");
+	
+}
+
+header {
+
+	background-color: #ffffff;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+	height:100px;
+	
+}
+
+nav {
+	float:right;
+	margin-top: 30px;
+}
+nav ul li {
+
+	
+	display: inline;
+	font-family: "Arial", "Helvetica Neue";
+
+}
+
+.button {
+	background-color: white;
+	color: #777777;
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	
+
+}
+
+
+#detail {
+	border-right: 1px solid #cccccc;
+
+}
+
+#wrapper {
+height: 611px;
+padding-top: 130px;
+
+
+}
+
+article {
+	width: 650px;
+	height: 400px;
+	background-color: #ffffff;
+	padding: 20px;
+	float: left;
+	margin-left: 100px;
+	border: 2px solid #dddddd;
+
+	
+
+}
+
+article h1 {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: "Georgia", "Times", "serif";
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 20px;
+
+
+}
+
+article img {
+float: left;
+width: 172px;
+padding-top: 20px;
+
+
+}
+
+article p {
+	padding-top: 20px;
+	float: right;
+	width: 67%;
+	color:#777777;
+	font-family: "Arial", "Helvetica Neue";
+	font-size: 15px
+	
+
+}
+
+aside {
+	
+	width:270px;	
+	padding:20px;
+	background-color: #ffffff;
+	float: right;
+	margin-right: 100px;
+	clear: right;
+	border: 2px solid #dddddd;
+	/*position:fixed*/;
+	
+
+}
+
+aside img{
+	width: 52px;
+	height: 52px;
+}
+
+aside li{
+	display: inline;
+	
+
+
+}
+
+
+aside h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	font-family: "Georgia", "Times", "serif";
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+footer {
+	background-color: #666666;
+	width: 100%;
+	border-top: 6px solid #4aaaa5;
+	text-align: center;
+	color:#ffffff;
+	font-size: 12px;
+	height:90px;
+	padding-top:35px;
+	position: fixed;
+
+}
+
+
+.name {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding: 20px;	
+	font-size: 30px;
+	font-family: "Georgia", "Times", "serif";
+	width: 250px;
+	
+	
+	
+}
+
+
