@@ -3,8 +3,8 @@
 
 
 body {
-	background: url("https://raw.githubusercontent.com/amr08/Basic-Portfolio/master/assets/css/retina_wood/retina_wood.png");
-	
+	background: url("https://raw.githubusercontent.com/amr08/Basic-Portfolio/master/assets/css/retina_wood/retina_wood.png");	
+
 }
 
 header {
@@ -22,6 +22,7 @@ nav {
 	float:right;
 	margin-top: 30px;
 }
+
 nav ul li {
 
 	
@@ -36,10 +37,8 @@ nav ul li {
 	list-style-type: none;
 	padding-right: 20px;
 	padding-left: 20px;
-	
 
 }
-
 
 #detail {
 	border-right: 1px solid #cccccc;
@@ -49,7 +48,6 @@ nav ul li {
 #wrapper {
 height: 611px;
 padding-top: 130px;
-
 
 }
 
@@ -62,8 +60,6 @@ article {
 	margin-left: 100px;
 	border: 2px solid #dddddd;
 
-	
-
 }
 
 article h1 {
@@ -73,14 +69,12 @@ article h1 {
 	border-bottom: 3px solid #cccccc;
 	padding-bottom: 20px;
 
-
 }
 
 article img {
 float: left;
 width: 172px;
 padding-top: 20px;
-
 
 }
 
@@ -92,7 +86,6 @@ article p {
 	font-family: "Arial", "Helvetica Neue";
 	font-size: 15px
 	
-
 }
 
 aside {
@@ -106,7 +99,6 @@ aside {
 	border: 2px solid #dddddd;
 	/*position:fixed*/;
 	
-
 }
 
 aside img{
@@ -116,8 +108,6 @@ aside img{
 
 aside li{
 	display: inline;
-	
-
 
 }
 
@@ -129,6 +119,7 @@ aside h2 {
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
 	text-align: center;
+
 }
 
 footer {
@@ -153,8 +144,6 @@ footer {
 	font-size: 30px;
 	font-family: "Georgia", "Times", "serif";
 	width: 250px;
-	
-	
 	
 }
 
