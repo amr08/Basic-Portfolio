@@ -131,9 +131,10 @@ footer {
 	font-size: 12px;
 	height:90px;
 	padding-top:35px;
-	position: fixed;
+	clear: both;	
 
 }
+
 
 
 .name {
@@ -147,4 +148,7 @@ footer {
 	
 }
 
+.portfoImages {
+	
+}
 
