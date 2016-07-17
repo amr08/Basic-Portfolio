@@ -51,6 +51,7 @@ header  li {
 
 header li a {
 	color: #777777;
+
 }
 
 header li a:hover {
@@ -60,27 +61,26 @@ header li a:hover {
 
 }
 	
-
 #detail {
 	border-right: 1px solid #cccccc;
 	padding-right: 25px;
-
 }
 
-#wrapper {
-height: 611px;
-padding-top: 130px;
+.wrapper {
+
+padding-top: 130px 
+
 
 }
 
 article {
 	width: 650px;
-	height: 400px;
 	background-color: #ffffff;
 	padding: 20px;
 	float: left;
 	margin-left: 100px;
 	border: 2px solid #dddddd;
+	margin-bottom: 40px;
 
 }
 
@@ -90,23 +90,24 @@ article h1 {
 	font-family: "Georgia", "Times", "serif";
 	border-bottom: 3px solid #cccccc;
 	padding-bottom: 20px;
+	font-weight: bold;
 
 }
 
 article img {
-float: left;
-width: 172px;
-padding-top: 20px;
+	float: left;
+	width: 172px;
+	margin-top: 10px;
+	margin-right: 20px;
 
 }
 
 article p {
-	padding-top: 20px;
-	float: right;
-	width: 67%;
+	padding: 10px;
+	width: 100%;
 	color:#777777;
 	font-family: "Arial", "Helvetica Neue";
-	font-size: 15px
+	font-size: 18px
 	
 }
 
@@ -157,17 +158,32 @@ footer {
 
 }
 
-.container2 {
+/*.container2 {
 	border: 6px solid black;
-}
+} */
 
 
 .photo {
-	height: 200px;
-	width: 200px;
+	height: 205px;
+	width: 270px;
+	margin: 15px;
 
 }
 
+form {
+	color:#777777;
+	font-family: "Arial", "Helvetica Neue";
+	font-size: 15px
+	
+}
 
-
+button {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	padding: 30px;	
+	font-size: 30px;
+	font-family: "Georgia", "Times", "serif";
+	font-weight: bold;
+}
 
