@@ -69,7 +69,8 @@ header li a:hover {
 
 .wrapper {
 
-padding-top: 130px 
+padding-top: 130px;
+height: 700px;
 
 }
 
@@ -162,26 +163,36 @@ article p {
 aside {
 	
 	width:270px;	
-	padding:20px;
 	background-color: #ffffff;
 	float: right;
 	margin-right: 100px;
 	clear: right;
 	border: 2px solid #dddddd;
+	padding: 20px;
+
 	/*position:fixed*/;
 	
 }
 
 aside img{
-	width: 52px;
-	height: 52px;
+	width: 60px;
+	height: 60px;
+	
 }
 
+aside ul {
+	padding: 0px;
+	text-align: center;
+	margin-top: 20px;
+
+
+}
 aside li{
 	display: inline;
 
-}
 
+
+}
 
 aside h2 {
 	color: #4aaaa5;
@@ -190,6 +201,8 @@ aside h2 {
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
 	text-align: center;
+	
+
 
 }
 
@@ -215,13 +228,25 @@ form {
 	
 }
 
+
 button {
 	background-color: #4aaaa5;
+	width: 115px;
+	padding: 10px;
+	color: #ffffff;	
+	border: none;
+
+	}
+
+.button {
 	color: white;
-	text-align: center;
-	padding: 30px;	
-	font-size: 30px;
-	font-family: "Georgia", "Times", "serif";
-	font-weight: bold;
+	font-size: 20px;
+	font-family: "Times", "serif";
+
 }
+
+input text {
+ padding: 10px;
+}
+
 
