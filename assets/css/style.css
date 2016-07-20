@@ -4,15 +4,18 @@
 html {
     position: relative;
     min-height: 100%;
+
 }
 
 body {
    
     background: url("https://raw.githubusercontent.com/amr08/Basic-Portfolio/master/assets/css/retina_wood/retina_wood.png");	
     height: 100%;
+
 }
 
 footer {
+
 	background-color: #666666;
 	border-top: 6px solid #4aaaa5;
 	text-align: center;
@@ -24,10 +27,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+
 }
 /*end stick footer mod*/
-
-
 
 header {
 
@@ -80,18 +82,19 @@ header li a {
 header li a:hover {
 	text-decoration: none;
 	color: #4aaaa5;
-	text-shadow: 10px 10px 20px #E6E6E6;
+	text-shadow: 10px 10px 30px #E6E6E6;
 	font-weight: bold;
+
 }
 	
 #detail {
 	border-right: 1px solid #cccccc;
 	padding-right: 25px;
+
 }
 
 .wrapper {
-
-padding-top: 130px;
+	padding-top: 130px;
 
 }
 
@@ -100,12 +103,13 @@ padding-top: 130px;
 	width: 270px;
 	margin: 15px;
 
-
 }
 
 .photo:hover {
 	box-shadow: 10px 5px 5px gray;
+
 }
+
 .text {
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -118,30 +122,35 @@ padding-top: 130px;
 	
 }
 
-#box1 {
- 	margin-left: 15px;
- 	margin-top:150px;
-}
+	#box1 {
+ 		margin-left: 15px;
+ 		margin-top:150px;
 
-#box2 {
-	margin-left: 315px;
-	margin-top: 150px;
-}
+	}
 
-#box3 {
-	margin-left: 15px;
-	margin-top: 385px;
-}
+	#box2 {
+		margin-left: 315px;
+		margin-top: 150px;
 
-#box4 {
- margin-left: 315px;
- margin-top: 385px;
-}
+	}
 
-#box5 {
-	margin-left: 15px;
-	margin-top: 620px;
-}
+	#box3 {
+		margin-left: 15px;
+		margin-top: 385px;
+
+	}
+
+	#box4 {
+ 		margin-left: 315px;
+ 		margin-top: 385px;
+
+	}
+
+	#box5 {
+		margin-left: 15px;
+		margin-top: 620px;
+		
+	}
 
 article {
 	width: 650px;
@@ -191,8 +200,6 @@ aside {
 	border: 2px solid #dddddd;
 	padding: 20px;
 
-	/*position:fixed*/;
-	
 }
 
 aside img{
@@ -200,13 +207,16 @@ aside img{
 	height: 61px;
 	
 }
+
 .asideimg {
 	width: 68px;
 	height: 68px;
+
 }
 
 aside img:hover {
 	 transform: scale(1.1); 
+
 }
 
 aside ul {
@@ -215,6 +225,7 @@ aside ul {
 	margin-top: 20px;
 
 }
+
 aside li{
 	display: inline;
 
@@ -229,8 +240,6 @@ aside h2 {
 	text-align: center;
 	
 }
-
-
 
 form {
 	color:#777777;
@@ -258,7 +267,8 @@ button {
 
 button:hover {
 	 transform: scale(1.1); 
-	}
+
+}
 
 #user_name, #email {
 	width: 100%;
@@ -271,6 +281,4 @@ button:hover {
 	height: 200px;
 	
 }
-
-
 
