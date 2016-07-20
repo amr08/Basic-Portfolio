@@ -1,8 +1,33 @@
 
-body {
-	background: url("https://raw.githubusercontent.com/amr08/Basic-Portfolio/master/assets/css/retina_wood/retina_wood.png");	
- 
+
+/*sticky footer mod*/
+html {
+    position: relative;
+    min-height: 100%;
 }
+
+body {
+   
+    background: url("https://raw.githubusercontent.com/amr08/Basic-Portfolio/master/assets/css/retina_wood/retina_wood.png");	
+    height: 100%;
+}
+
+footer {
+	background-color: #666666;
+	border-top: 6px solid #4aaaa5;
+	text-align: center;
+	color:#ffffff;
+	font-size: 12px;
+	height:90px;
+	padding-top:35px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/*end stick footer mod*/
+
+
 
 header {
 
@@ -55,7 +80,8 @@ header li a {
 header li a:hover {
 	text-decoration: none;
 	color: #4aaaa5;
-
+	text-shadow: 10px 10px 20px #E6E6E6;
+	font-weight: bold;
 }
 	
 #detail {
@@ -66,7 +92,6 @@ header li a:hover {
 .wrapper {
 
 padding-top: 130px;
-height: 700px;
 
 }
 
@@ -75,8 +100,12 @@ height: 700px;
 	width: 270px;
 	margin: 15px;
 
+
 }
 
+.photo:hover {
+	box-shadow: 10px 5px 5px gray;
+}
 .text {
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -121,7 +150,7 @@ article {
 	float: left;
 	margin-left: 100px;
 	border: 2px solid #dddddd;
-	margin-bottom: 40px;
+	margin-bottom: 130px;
 
 }
 
@@ -167,11 +196,18 @@ aside {
 }
 
 aside img{
-	width: 70px;
-	height: 70px;
+	width: 61px;
+	height: 61px;
 	
 }
+.asideimg {
+	width: 68px;
+	height: 68px;
+}
 
+aside img:hover {
+	 transform: scale(1.1); 
+}
 
 aside ul {
 	padding: 0px;
@@ -194,24 +230,12 @@ aside h2 {
 	
 }
 
-footer {
-	background-color: #666666;
-	width: 100%;
-	border-top: 6px solid #4aaaa5;
-	text-align: center;
-	color:#ffffff;
-	font-size: 12px;
-	height:90px;
-	padding-top:35px;
-	clear: both;	
 
-}
 
 form {
 	color:#777777;
 	font-family: "Arial", "Helvetica Neue";
 	font-size: 15px
-
 	
 }
 
@@ -222,7 +246,6 @@ button {
 	color: #ffffff;	
 	border: none;
 
-
 }
 
 .button {
@@ -232,6 +255,10 @@ button {
 	padding-top: 20px;
 
 }
+
+button:hover {
+	 transform: scale(1.1); 
+	}
 
 #user_name, #email {
 	width: 100%;
@@ -244,11 +271,6 @@ button {
 	height: 200px;
 	
 }
-/*figure this shit out
 
-input text {
- padding: 10px;
-
-}
 
 
