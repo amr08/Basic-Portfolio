@@ -29,7 +29,7 @@ footer {
     width: 100%;
 
 }
-/*end stick footer mod*/
+/*end sticky footer mod*/
 
 header {
 
@@ -85,7 +85,6 @@ header li a {
 		text-shadow: 10px 10px 20px #E6E6E6;
 		font-weight: bold;
 	
-
 }
 	
 #detail {
@@ -96,14 +95,15 @@ header li a {
 
 .wrapper {
 	padding-top: 130px;
+	width: 960px;
+	margin-left: 100px;
 
 }
 
 .photo {
 	height: 205px;
 	width: 270px;
-	margin: 15px;
-
+	
 }
 
 	.photo:hover {
@@ -124,32 +124,29 @@ header li a {
 }
 
 	#box1 {
- 		margin-left: 15px;
- 		margin-top:150px;
+ 		margin-top:145px;
 
 	}
 
 	#box2 {
-		margin-left: 315px;
-		margin-top: 150px;
+		margin-left: 290px;
+		margin-top: 145px;
 
 	}
 
 	#box3 {
-		margin-left: 15px;
-		margin-top: 385px;
+		margin-top: 360px;
 
 	}
 
 	#box4 {
- 		margin-left: 315px;
- 		margin-top: 385px;
+ 		margin-left: 290px;
+ 		margin-top: 360px;
 
 	}
 
 	#box5 {
-		margin-left: 15px;
-		margin-top: 620px;
+		margin-top: 575px;
 		
 	}
 
@@ -158,9 +155,8 @@ article {
 	background-color: #ffffff;
 	padding: 20px;
 	float: left;
-	margin-left: 100px;
 	border: 2px solid #dddddd;
-	margin-bottom: 130px;
+	margin-bottom: 12%;
 
 }
 
@@ -191,22 +187,25 @@ article p {
 	
 }
 
-	#pdetail {
+	.pdetail {
 		text-align: center;
 		font-weight: bold;
 
 	}
 
+    #p2detail {
+    	text-decoration: line-through;
+
+    }
+
 aside {
-	
+	width: 100%;
 	width:270px;	
 	background-color: #ffffff;
 	float: right;
-	margin-right: 100px;
-	clear: right;
 	border: 2px solid #dddddd;
 	padding: 20px;
-
+	
 }
 
 aside img{
@@ -215,16 +214,16 @@ aside img{
 	
 }
 
-.asideimg {
-	width: 68px;
-	height: 68px;
+	.asideimg {
+		width: 68px;
+		height: 68px;
 
-}
+	}
 
 	aside img:hover {
 	 	transform: scale(1.1); 
 
-}
+	}
 
 aside ul {
 	padding: 0px;
@@ -264,18 +263,18 @@ button {
 
 }
 
-.button {
-	color: white;
-	font-size: 20px;
-	font-family: "Times", "serif";
-	padding-top: 20px;
+	.button {
+		color: white;
+		font-size: 20px;
+		font-family: "Times", "serif";
+		padding-top: 20px;
 
-}
+	}
 
 	button:hover {
 	 	transform: scale(1.1); 
 
-}
+	}
 
 #user_name, #email {
 	width: 100%;
@@ -289,5 +288,243 @@ button {
 	
 }
 
+/*regular screen*/
+	@media screen and (max-width: 980px) {
+		
 
+
+		aside {
+			margin-right: 18%;
+		}
+
+		article {
+			width: 400px;
+
+		}
+
+		article img {
+			width: 100%;
+			margin-bottom: 20px;
+
+		}
+
+		.photo {
+			width: 350px;
+			height: 300px;
+		}
+
+			#box1 {
+				width: 350px;
+				margin-top: 235px;
+			}
+
+			#box2 {
+				margin-top: 565px;
+				margin-left: 0;
+				width: 350px;
+			}
+        
+       		#box3 { 
+        		margin-top: 900px; 
+        		width: 350px;
+   	   		}
+	
+        	#box4 {
+        		margin-left: 0px;
+        		margin-top: 1230px;
+        		width: 350px;
+       		}
+
+			#box5 {
+				margin-top: 1555px;
+				width: 350px;
+				
+			}
+		}
+
+
+/*tablet*/
+	@media screen and (max-width: 768px) {
+
+
+		.wrapper {
+			margin: 0px;
+			max-width: 768px;
+
+			}
+		
+		header {
+			position: static;
+			width: 100%;
+			height: 96px;
+
+		}
+
+		header h1 {
+			margin-left: 2%;
+
+		}
+
+		header ul {	
+			margin-right: 2%;
+
+		}
+
+		article {
+			width: 98%;
+			margin-left: 9px;
+			margin-top: -15%;
+		
+		}
+
+		article img {
+			width: 50%;
+
+		}
+
+		aside {
+			float: left;
+			border: 2px solid black;
+			margin-bottom: 15%;
+			margin-top: -8%;
+			margin-left: 1%;
+			width: 98%;
+
+		}
+
+		aside ul {
+			text-align: left;
+
+		}
+
+		aside h2 {
+			text-align: left;
+	
+		}
+
+		.photo {
+			height: 250px;
+			width: 300px;
+			margin: 20px;
+
+		}
+
+			#box1 {
+				margin-top: 190px;
+				margin-left: 20px;
+				width: 300px;
+			}
+
+			#box2 {
+				margin-top: 190px;
+				margin-left: 360px;
+				width: 300px;
+
+			}
+
+			#box3 {
+				margin-left: 20px;
+				margin-top: 485px;
+				width: 300px;
+
+			}
+
+			#box4 {
+	 			margin-left:360px;
+	 			margin-top: 485px;
+	 			width: 300px;
+
+			}
+
+			#box5 {
+	 			margin-left:20px;
+	 			margin-top: 775px;
+	 			width: 300px;
+
+			}
+
+		
+		}
+
+/*phone in landscape*/
+	@media screen and (max-width: 640px) {
+
+		header {
+			position: static;
+			margin-left: -2%;
+
+		}
+
+		header h1 {
+			width: 100%;
+
+		}
+
+		header ul{
+			margin-top: 0;
+			width: 100%;
+
+		}
+
+		header li {
+			padding-left: 10%;
+			padding-right: 13.3%;
+			text-align: center;
+			
+		}
+		
+		.wrapper {
+			padding: 0px;
+			width: 640px;
+
+		}
+
+		article {
+			margin-top: 0%;
+
+		}
+
+		.photo {
+			width: 500px;
+			height: 400px;
+
+		}
+
+			#box1 {
+				width: 500px;
+				margin-top: 340px;
+				margin-left: 20px;
+
+			}
+		
+			#box2 {
+				width: 500px;
+				margin-top: 790px;
+				margin-left: 20px;
+
+			}
+
+			#box3 {
+				width: 500px;
+				margin-top: 1230px;
+				margin-left: 20px;
+
+			}
+
+			#box4 {
+				width:500px;
+				margin-left: 20px;
+				margin-top: 1665px;
+				
+			}
+
+			#box5 {
+				width: 500px;
+				margin-left:20px;
+				margin-top: 2110px;
+
+			}
+
+		}
+		
 
